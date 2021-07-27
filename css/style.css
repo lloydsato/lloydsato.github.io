@@ -3,6 +3,13 @@ body{
     background: ghostwhite;
 }
 
+#twitter_project{
+    background-color: antiquewhite;
+}
+
+#cv{
+    background-color: antiquewhite;
+}
 #intro {
     padding-top: 0.5em;
     text-align: center;
@@ -32,8 +39,9 @@ h2{
     color: #2d2d2d;
 }
 
-#project {
-
+#cv_heading {
+    /*padding-top: 1.5em;*/
+    line-height: 3em;
 }
 
 .twitter {
@@ -57,7 +65,7 @@ h2{
 
 
 .project_heading {
-    padding-top: 2em;
+
     font-size: larger;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
@@ -66,6 +74,7 @@ h2{
 
 .paragraph {
     line-height: 120%;
+    padding-bottom: 0.5em;
     padding-left: 30em;
     padding-right: 30em;
     text-align: center;
