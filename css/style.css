@@ -18,6 +18,7 @@ body{
 }
 
 #my_project{
+    letter-spacing: 0.125em;
     font-size: xxx-large;
     font-weight: bolder;
     font-family: 'Bebas Neue', cursive;
@@ -34,6 +35,7 @@ h2{
 }
 
 .profession{
+    letter-spacing: 0.1em;
     line-height: 2em;
     font-family: 'Bebas Neue', cursive;
     color: #2d2d2d;
@@ -65,7 +67,7 @@ h2{
 
 
 .project_heading {
-
+    letter-spacing: 0.1em;
     font-size: larger;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
