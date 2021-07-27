@@ -1,0 +1,75 @@
+
+body{
+    background: ghostwhite;
+}
+
+#intro {
+    padding-top: 0.5em;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: #2d2d2d;
+}
+
+#my_project{
+    font-size: xxx-large;
+    font-weight: bolder;
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 0.5em;
+    text-align: center;
+    color: #2d2d2d;
+    line-height: 1em;
+}
+
+h2{
+    ;
+    text-align: center;
+    font-family: sans-serif, Montserrat;
+}
+
+.profession{
+    line-height: 2em;
+    font-family: 'Bebas Neue', cursive;
+    color: #2d2d2d;
+}
+
+#project {
+
+}
+
+.twitter {
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.web_automation {
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.project_img{
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+.project_heading {
+    padding-top: 2em;
+    font-size: larger;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: #2d2d2d;
+}
+
+.paragraph {
+    line-height: 120%;
+    padding-left: 30em;
+    padding-right: 30em;
+    text-align: center;
+    font-family: 'Cuprum', sans-serif;
+    font-weight: bold;
+    color: #2d2d2d;
+}
