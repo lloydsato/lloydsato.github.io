@@ -2,6 +2,10 @@
 body{
     background: ghostwhite;
 }
+::selection{
+    color: crimson;
+    background: darkcyan;
+}
 
 #twitter_project{
     background-color: antiquewhite;
@@ -28,6 +32,11 @@ body{
     line-height: 1em;
 }
 
+#cv_heading {
+    /*padding-top: 1.5em;*/
+    line-height: 3em;
+}
+
 h2{
     ;
     text-align: center;
@@ -39,11 +48,6 @@ h2{
     line-height: 2em;
     font-family: 'Bebas Neue', cursive;
     color: #2d2d2d;
-}
-
-#cv_heading {
-    /*padding-top: 1.5em;*/
-    line-height: 3em;
 }
 
 .twitter {
@@ -80,6 +84,7 @@ h2{
     padding-left: 30em;
     padding-right: 30em;
     text-align: center;
+    /*text-anchor: middle;*/
     font-family: 'Cuprum', sans-serif;
     font-weight: bold;
     color: #2d2d2d;
