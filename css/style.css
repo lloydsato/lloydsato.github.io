@@ -9,16 +9,35 @@ body{
 
 #twitter_project{
     background-color: antiquewhite;
+    transition: background-color 1s ease-out 40ms;
+}
+
+#twitter_project:hover {
+    background-color: plum;
 }
 
 #cv{
     background-color: antiquewhite;
+    transition: background-color 1s ease-out 40ms;
 }
+
+#cv:hover{
+    background-color: plum;
+}
+
+#automation{
+    transition: background-color 1s ease-out 40ms;
+}
+#automation:hover {
+    background-color: grey;
+}
+
 #intro {
     padding-top: 0.5em;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     color: #2d2d2d;
+
 }
 
 #my_project{
@@ -67,8 +86,12 @@ h2{
     margin-right: auto;
     width: 200px;
     border-radius: 10px;
+    /*transition: background-color 2s ease-out 100ms*/
 }
 
+/*.project_img:hover {*/
+/*    background-color: #FF1493;*/
+/*}*/
 
 .project_heading {
     letter-spacing: 0.1em;
