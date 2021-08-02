@@ -1,4 +1,5 @@
 
+
 body{
     background: ghostwhite;
 }
@@ -13,7 +14,7 @@ body{
 }
 
 #twitter_project:hover {
-    background-color: plum;
+    background-color: rgb(223, 139, 202);
 }
 
 #cv{
@@ -22,14 +23,14 @@ body{
 }
 
 #cv:hover{
-    background-color: plum;
+    background-color: rgb(223, 139, 202);
 }
 
 #automation{
     transition: background-color 1s ease-out 40ms;
 }
 #automation:hover {
-    background-color: grey;
+    background-color: lightgrey;
 }
 
 #intro {
@@ -57,7 +58,7 @@ body{
 }
 
 h2{
-    ;
+    
     text-align: center;
     font-family: sans-serif, Montserrat;
 }
@@ -70,13 +71,20 @@ h2{
 }
 
 .twitter {
+    /*color: #2d2d2d;*/
+    padding: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.web_automation {
+    text-decoration: none;
     padding: 30px;
     border-radius: 10px;
 }
 
-.web_automation {
-    padding: 30px;
-    border-radius: 10px;
+.cv_gen{
+    text-decoration: none;
 }
 
 .project_img{
@@ -86,12 +94,7 @@ h2{
     margin-right: auto;
     width: 200px;
     border-radius: 10px;
-    /*transition: background-color 2s ease-out 100ms*/
 }
-
-/*.project_img:hover {*/
-/*    background-color: #FF1493;*/
-/*}*/
 
 .project_heading {
     letter-spacing: 0.1em;
@@ -104,11 +107,22 @@ h2{
 .paragraph {
     line-height: 120%;
     padding-bottom: 0.5em;
-    padding-left: 30em;
-    padding-right: 30em;
+    padding-left: 25em;
+    padding-right: 25em;
     text-align: center;
     /*text-anchor: middle;*/
     font-family: 'Cuprum', sans-serif;
     font-weight: bold;
     color: #2d2d2d;
 }
+
+.github{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*.twitter_logo{*/
+/*    display: block;*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+/*}*/
