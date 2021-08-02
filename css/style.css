@@ -30,7 +30,7 @@ body{
     transition: background-color 1s ease-out 40ms;
 }
 #automation:hover {
-    background-color: lightgrey;
+    background-color: lightgray;
 }
 
 #intro {
