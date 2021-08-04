@@ -15,29 +15,35 @@ body{
 }
 
 #twitter_project{
+    border-radius: 1em;
     background-color: antiquewhite;
     transition: background-color 1s ease-out 40ms;
 }
 
 #twitter_project:hover {
-    background-color: rgb(223, 139, 202);
+    background-color: rgba(209, 174, 128, 0.89);
 }
 
-#cv{
-    background-color: antiquewhite;
-    transition: background-color 1s ease-out 40ms;
-}
-
-#cv:hover{
-    background-color: rgb(223, 139, 202);
-}
 
 #automation{
+    background-color: rgb(230, 217, 217);
+    border-radius: 1em;
     transition: background-color 1s ease-out 40ms;
 }
 #automation:hover {
     background-color: lightgrey;
 }
+
+#cv{
+    border-radius: 1em;
+    background-color: antiquewhite;
+    transition: background-color 1s ease-out 40ms;
+}
+
+#cv:hover{
+    background-color: rgba(209, 174, 128, 0.89);
+}
+
 
 #intro {
     padding-top: 0.5em;
@@ -127,8 +133,4 @@ h2{
     margin-left: auto;
     margin-right: auto;
 }
-/*.twitter_logo{*/
-/*    display: block;*/
-/*    margin-left: auto;*/
-/*    margin-right: auto;*/
-/*}*/
+
