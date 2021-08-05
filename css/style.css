@@ -1,7 +1,7 @@
 
 
 body{
-    background: ghostwhite;
+    background: #CFF6CF;
 }
 
 #master_container{
@@ -15,8 +15,8 @@ body{
 }
 
 #twitter_project{
-    border-radius: 1em;
-    background-color: antiquewhite;
+    border-radius: 0.75em;
+    background-color: rgb(228, 208, 180);
     transition: background-color 1s ease-out 40ms;
 }
 
@@ -26,17 +26,17 @@ body{
 
 
 #automation{
-    background-color: rgb(230, 217, 217);
-    border-radius: 1em;
+    background-color: rgb(209, 201, 201);
+    border-radius: 0.75em;
     transition: background-color 1s ease-out 40ms;
 }
 #automation:hover {
-    background-color: lightgrey;
+    background-color: rgb(172, 171, 171);
 }
 
 #cv{
-    border-radius: 1em;
-    background-color: antiquewhite;
+    border-radius: 0.75em;
+    background-color: rgb(228, 208, 180);
     transition: background-color 1s ease-out 40ms;
 }
 
@@ -129,8 +129,16 @@ h2{
 }
 
 .github{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
+#icons {
+    background-image: linear-gradient(90deg, #DE8971, #7B6079);
+    border-radius: .75em
+    ;
+
+}
