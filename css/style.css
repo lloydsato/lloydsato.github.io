@@ -66,7 +66,7 @@ body{
 
 #cv_heading {
     /*padding-top: 1.5em;*/
-    line-height: 3em;
+    padding-top: 2em;
 }
 
 h2{
@@ -100,6 +100,7 @@ h2{
 }
 
 .project_img{
+    border: 10px #30475E;
     height: 150px;
     display: block;
     margin-left: auto;
@@ -123,9 +124,9 @@ h2{
     padding-right: 20em;
     text-align: center;
     /*text-anchor: middle;*/
-    font-family: 'Cuprum', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: bold;
-    color: #39375B;
+    color: #30475E;
 }
 
 .github{
@@ -134,10 +135,4 @@ h2{
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-#icons {
-    background-image: linear-gradient(90deg, #DE8971, #7B6079);
-    border-radius: 0.75em;
-
 }
